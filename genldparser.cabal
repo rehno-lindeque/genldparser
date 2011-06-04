@@ -1,0 +1,51 @@
+name: genldparser
+version: 0.0.1
+cabal-version: -any
+build-type: Simple
+license: BSD3
+license-file: licenses/BSD3_LICENSE
+copyright: Rehno Lindeque, 2011
+maintainer: Rehno Lindeque <code@rehno.lindeque.name>
+build-depends: base -any, graphviz -any
+stability: Unstable
+homepage:
+package-url:
+bug-reports:
+synopsis: Generate an LD parser (for now just a graphviz graph for the ldparser paper)
+description: Generate an LD parser (for now just a graphviz graph for the ldparser paper)
+category:
+author: Rehno Lindeque <code@rehno.lindeque.name>
+tested-with:
+data-files:
+data-dir: ""
+extra-source-files:
+extra-tmp-files:
+ 
+executable: genldparser
+main-is: Main.hs
+buildable: True
+build-tools:
+cpp-options:
+cc-options:
+ld-options:
+pkgconfig-depends:
+frameworks:
+c-sources:
+default-language:
+other-languages:
+default-extensions:
+other-extensions:
+extensions:
+extra-libraries:
+extra-lib-dirs:
+includes:
+install-includes:
+include-dirs:
+hs-source-dirs: src
+other-modules:
+ghc-prof-options:
+ghc-shared-options:
+ghc-options:
+hugs-options:
+nhc98-options:
+jhc-options:
