@@ -6,7 +6,8 @@ license: BSD3
 license-file: licenses/BSD3_LICENSE
 copyright: Rehno Lindeque, 2011
 maintainer: Rehno Lindeque <code@rehno.lindeque.name>
-build-depends: base -any, graphviz -any
+build-depends: base -any, bimap -any, containers -any, fgl -any,
+               graphviz -any
 stability: Unstable
 homepage:
 package-url:
